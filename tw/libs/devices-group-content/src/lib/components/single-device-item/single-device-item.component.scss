@@ -1,0 +1,13 @@
+@import "./apps/boilerplate/src/styles";
+
+:host {
+  border: 4px solid $athens-gray;
+  display: grid;
+  height: 100%;
+  align-content: center;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+
